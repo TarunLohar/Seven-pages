@@ -1,0 +1,88 @@
+ /* Styling for the header */
+ header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the navigation menu */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #555;
+    padding: 10px;
+}
+
+/* Styling for the navigation links */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Styling for the main content area */
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Styling for the individual content cards */
+.card {
+    width: 300px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the card images */
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Styling for the card content */
+.card-content {
+    padding: 10px;
+}
+
+/* Styling for the card titles */
+.card h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Styling for the card descriptions */
+.card p {
+    font-size: 18px;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styling for the footer links */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
